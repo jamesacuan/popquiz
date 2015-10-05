@@ -1,0 +1,45 @@
+body{
+  background-color: #f2f2f2;
+}
+.navbar{
+box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.3);
+background-color:#0277bd;
+border-color: transparent;
+color: #fff !important;
+border-bottom-color: #01579b;
+border-radius: none !important;
+}
+.navbar a{color: #fff !important;}
+form{
+  margin-top: 50px;
+  box-shadow: rgba(0, 0, 0, 0.5) 0px 1px 4px 0px;
+  padding: 30px;
+  background-color: #fff;
+}
+#quiz h4{
+  margin-top: 15px;
+  line-height: 1.5;
+}
+.sortable li{
+  list-style: outside none none;
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 16px;
+  cursor: move;
+}
+.sortable li:hover{
+  border-color: #ccc;
+}
+.sortable{
+  padding-left: 0;
+}
+li.highlight {
+    background: #FEE25F;
+  }
+  li.sortable-placeholder {
+    border: 1px dashed #CCC;
+    background-color: #fff9c4;
+    height: 45px;
+  }
